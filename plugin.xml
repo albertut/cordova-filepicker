@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	id="org.apache.cordova.plugins.Filepicker"
+	version="1.0.0">
+
+	<name>Filepicker</name>
+
+	<asset src="www/Filepicker.js" target="Filepicker.js" />
+
+	<!-- ios -->
+	<platform name="ios">
+		<plugins-plist key="Filepicker" />
+
+		<header-file src="CDVFilepicker.h" />
+
+		<source-file src="CDVFilepicker.m" />
+	</platform>
+
+</plugin>
+
