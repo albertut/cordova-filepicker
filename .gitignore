@@ -1,2 +1,5 @@
 # Xcode
 .DS_Store
+bin/
+.classpath
+.project
