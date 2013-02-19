@@ -17,13 +17,12 @@ Using this plugin requires [Cordova iOS](https://github.com/apache/incubator-cor
 1. Make sure your Xcode project has been [updated for Cordova](https://github.com/apache/incubator-cordova-ios/blob/master/guides/Cordova%20Upgrade%20Guide.md)
 2. Drag and drop the `src/ios` folder from the Finder to your `Plugins` folder in XCode, using "Create groups for any added folders", rename the folder to `Filepicker`.
 3. Add the .js files to your `www` folder on disk, and add reference(s) to the .js files using `<script>` tags in your html file(s)
-4. In the project plist add a key: "Filepicker API Key" with a value equal to your key from filepicker.io.
-
 
     `<script type="text/javascript" src="/js/plugins/Filepicker.js"></script>`
 
 
-4. Add new entry with key `Filepicker` and value `CDVFilepicker` to `Plugins` in `Cordova.plist/Cordova.plist`
+4. In the project plist add a key: "Filepicker API Key" with a value equal to your key from filepicker.io.
+5. Add new entry with key `Filepicker` and value `CDVFilepicker` to `Plugins` in `Cordova.plist/Cordova.plist`
 
 ## JAVASCRIPT INTERFACE (IOS) ##
 
