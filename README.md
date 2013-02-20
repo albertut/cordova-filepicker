@@ -9,6 +9,8 @@ and [Jon Uy](http://github.com/jonuy)
 
 * This plugin is built for Cordova >= v2.1.0 with ARC.
 
+[![Screenshot](http://albertut.com/filepicker_ios.png)](https://github.com/albertut/cordova-filepicker)
+
 
 ## PLUGIN SETUP FOR IOS ##
 
