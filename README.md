@@ -25,6 +25,15 @@ Using this plugin requires [Cordova iOS](https://github.com/apache/incubator-cor
 
 4. In the project plist add a key: "Filepicker API Key" with a value equal to your key from filepicker.io.
 5. Add new entry with key `Filepicker` and value `CDVFilepicker` to `Plugins` in `Cordova.plist/Cordova.plist`
+6. Add new frameworks required for filepicker
+
+-AssetsLibrary.framework
+-QuartzCore.framework
+-CoreFoundation.framework
+-MobileCoreServices.framework
+-CoreGraphics.framework
+-Foundation.framework
+-UIKit.framework
 
 ## JAVASCRIPT INTERFACE (IOS) ##
 
@@ -38,6 +47,7 @@ Using this plugin requires [Cordova iOS](https://github.com/apache/incubator-cor
 	);
 
 For full list of sourceNames visit [Filepicker](https://developers.filepicker.io/docs/ios)
+See the [example](https://github.com/albertut/cordova-filepicker-example)
 
 ## BUGS AND CONTRIBUTIONS ##
 
